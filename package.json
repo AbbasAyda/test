@@ -2,14 +2,14 @@
   "name": "testing",
   "version": "1.0.0",
   "description": "building CRUD using nodejs",
-  "main": "index.js",
+  "main": "crud.js",
   "dependencies": {
     "git": "^0.1.5",
     "heroku": "^7.59.2"
   },
   "devDependencies": {},
   "scripts": {
-     "start":"npm start crud.js",
+     "start":"npm start index.js",
      "test": "echo \"Error: no test specified\" && exit 1"
    
   },
