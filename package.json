@@ -9,8 +9,9 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start":"npm start crud.js"
    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node crud.js"
+    
   },
   "repository": {
     "type": "git",
