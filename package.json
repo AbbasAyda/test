@@ -1,19 +1,17 @@
-  {
+{
   "name": "testing",
   "version": "1.0.0",
   "description": "building CRUD using nodejs",
-  "main": "crud.js",
+  "engines":{"node": "14.17.4"},
+  "main": "index.js",
   "dependencies": {
     "git": "^0.1.5",
     "heroku": "^7.59.2"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
-     "build": "ng build",
-    "heroku-postbuild": "ng build --prod"  ,   
-     "test": "echo \"Error: no test specified\" && exit 1"
-   
+     "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
   },
   "repository": {
     "type": "git",
