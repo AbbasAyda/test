@@ -5,7 +5,7 @@
   "engines": {
     "node": "14.17.4"
   },
-  "main": "index.js",
+  "main": "crud.js",
   "dependencies": {
     "express": "^4.17.2",
     "express-router": "^0.0.1",
