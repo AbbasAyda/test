@@ -2,7 +2,10 @@
   "name": "crudapp",
   "version": "1.1.2",
   "description": "buidlind crud app",
-  "main": "crud.js",
+  "engines": {
+    "node": "14.17.4"
+  },
+  "main": "index.js",
   "dependencies": {
     "express": "^4.17.2",
     "express-router": "^0.0.1",
