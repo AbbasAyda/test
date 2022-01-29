@@ -12,7 +12,8 @@
     "git": "^0.1.5",
     "heroku": "^7.59.2",
     "mongoose": "^6.1.8",
-    "mongodb":"^4.3.1"
+    "mongodb":"^4.3.1",
+    "socket.io":"4.4.1"
   },
   "devDependencies": {},
   "scripts": {
