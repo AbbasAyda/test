@@ -18,4 +18,5 @@ app.listen(PORT,()=>{
     app.get('*', (request, response) => {
       response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
     });
-    
+    app.use(express.json());
+app.use(express.urlencoded({extended: true}));
