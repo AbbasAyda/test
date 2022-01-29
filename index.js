@@ -12,3 +12,10 @@ app.set("port",PORT);
 app.listen(PORT,()=>{
   console.log(`Server listening on ${PORT}`);
     });
+    if (process.env.NODE_ENV === 'production') {
+      app.use(express.static('client/build'));
+    }
+    app.get('*', (request, response) => {
+      response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+    });
+    
