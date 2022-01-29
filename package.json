@@ -1,32 +1,25 @@
 {
-  "name": "testing",
-  "version": "1.0.0",
-  "description": "building CRUD using nodejs",
-  "engines":{"node": "14.17.4"},
-  "main": "index.js",
+  "name": "crudapp",
+  "version": "1.1.2",
+  "description": "buidlind crud app",
+  "main": "crud.js",
   "dependencies": {
-   "express-router": "^0.0.1",
+    "express": "^4.17.2",
+    "express-router": "^0.0.1",
     "git": "^0.1.5",
     "heroku": "^7.59.2",
-    "express":"^4.17.2",
-    "mongoose":"6.1.8",
-    "mongodb":"4.3.1",
-    "body-parser":"1.19.1",
-    "url-parser":"0.0.1",
-    "mysql":"2.18.1"
+    "mongoose": "^6.1.8"
   },
   "devDependencies": {},
   "scripts": {
-     "test": "echo \"Error: no test specified\" && exit 1"
-
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AbbasAyda/test.git"
   },
   "keywords": [
-    "crud",
-    "app"
+    "crud"
   ],
   "author": "Abbas S",
   "license": "ISC",
